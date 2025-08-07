@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2dede;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto {
+    border: 1px solid #b27474;
+    padding: 10px;
+    background-color: #baaaaa;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Padrão para os produtos visíveis */
+.produto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* inline-block padrão para layout em grade */
+.inline-block {
+    display: inline-block;
+    width: 200px;
+}
+
+/* inline - ignora largura/altura */
+.inline {
+    display: inline;
+    width: auto;
+    height: auto;
+}
+
+/* block - ocupa linha toda */
+.block {
+    display: block;
+    width: 100%;
+}
+
+/* produto oculto completamente */
+.none {
+    display: none;
+}
+
+/* produto invisível mas ainda ocupa espaço */
+.hidden {
+    visibility: hidden;
+}
